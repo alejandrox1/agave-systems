@@ -58,7 +58,7 @@ generate_agave_ssh_keys () {
 	PRIVATE_KEY_PATH="$HOME/.ssh/agaveapi"
 	PUBLIC_KEY_PATH="${PRIVATE_KEY_PATH}.pub"
 
-	ssh-keygen -q -t rsa -N '' -f ${PRIVATE_KEY_PATH} -C $USEREMAIL
+	ssh-keygen -t rsa -b 4096 -C $USEREMAIL -f ${PRIVATE_KEY_PATH} -N ''
 
 	if [ -e ${PUBLIC_KEY_PATH} ] && [ -e ${PRIVATE_KEY_PATH} ];
 	then

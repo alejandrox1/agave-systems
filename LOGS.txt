@@ -1,0 +1,145 @@
+{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.21-ra5e102f",
+  "result" : {
+    "id" : "8919777083032792600-242ac11b-0001-007",
+    "name" : "FastQC-job",
+    "owner" : "jochoa",
+    "appId" : "fastqc-jochoa-0.11.5",
+    "executionSystem" : "tacc-stampede2-jochoa",
+    "batchQueue" : "normal",
+    "nodeCount" : 1,
+    "processorsPerNode" : 1,
+    "memoryPerNode" : 1.0,
+    "maxRunTime" : "48:00:00",
+    "archive" : false,
+    "retries" : 0,
+    "localId" : null,
+    "created" : "2018-07-07T16:05:51.000-05:00",
+    "lastModified" : "2018-07-07T16:05:51.000-05:00",
+    "outputPath" : null,
+    "status" : "PENDING",
+    "submitTime" : "2018-07-07T16:05:51.000-05:00",
+    "startTime" : null,
+    "endTime" : null,
+    "inputs" : {
+      "fastq" : [ "agave://data-tacc-work-jochoa/stampede2/sd2e-data/sample/SP1.fq" ]
+    },
+    "parameters" : { },
+    "_links" : {
+      "self" : {
+        "href" : "https://api.sd2e.org/jobs/v2/8919777083032792600-242ac11b-0001-007"
+      },
+      "app" : {
+        "href" : "https://api.sd2e.org/apps/v2/fastqc-jochoa-0.11.5"
+      },
+      "executionSystem" : {
+        "href" : "https://api.sd2e.org/systems/v2/tacc-stampede2-jochoa"
+      },
+      "archiveSystem" : {
+        "href" : "https://api.sd2e.org/systems/v2/tacc-stampede2-jochoa"
+      },
+      "archiveData" : {
+        "href" : "https://api.sd2e.org/jobs/v2/8919777083032792600-242ac11b-0001-007/outputs/listings"
+      },
+      "owner" : {
+        "href" : "https://api.sd2e.org/profiles/v2/jochoa"
+      },
+      "permissions" : {
+        "href" : "https://api.sd2e.org/jobs/v2/8919777083032792600-242ac11b-0001-007/pems"
+      },
+      "history" : {
+        "href" : "https://api.sd2e.org/jobs/v2/8919777083032792600-242ac11b-0001-007/history"
+      },
+      "metadata" : {
+        "href" : "https://api.sd2e.org/meta/v2/data/?q=%7B%22associationIds%22%3A%228919777083032792600-242ac11b-0001-007%22%7D"
+      },
+      "notifications" : {
+        "href" : "https://api.sd2e.org/notifications/v2/?associatedUuid=8919777083032792600-242ac11b-0001-007"
+      },
+      "notification" : [ ]
+    }
+  }
+}
+{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.21-ra5e102f",
+  "result" : [ {
+    "status" : "PENDING",
+    "created" : "2018-07-07T16:05:52.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Job accepted and queued for submission."
+  } ]
+}
+{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.21-ra5e102f",
+  "result" : [ {
+    "status" : "PENDING",
+    "created" : "2018-07-07T16:05:52.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Job accepted and queued for submission."
+  } ]
+}
+{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.21-ra5e102f",
+  "result" : [ {
+    "status" : "PENDING",
+    "created" : "2018-07-07T16:05:52.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Job accepted and queued for submission."
+  } ]
+}
+{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.21-ra5e102f",
+  "result" : [ {
+    "status" : "PENDING",
+    "created" : "2018-07-07T16:05:52.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Job accepted and queued for submission."
+  }, {
+    "status" : "PROCESSING_INPUTS",
+    "created" : "2018-07-07T16:06:08.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Attempt 1 to stage job inputs"
+  }, {
+    "status" : "PROCESSING_INPUTS",
+    "created" : "2018-07-07T16:06:08.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Identifying input files for staging"
+  } ]
+}
+{
+  "status" : "success",
+  "message" : null,
+  "version" : "2.2.21-ra5e102f",
+  "result" : [ {
+    "status" : "PENDING",
+    "created" : "2018-07-07T16:05:52.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Job accepted and queued for submission."
+  }, {
+    "status" : "PROCESSING_INPUTS",
+    "created" : "2018-07-07T16:06:08.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Attempt 1 to stage job inputs"
+  }, {
+    "status" : "PROCESSING_INPUTS",
+    "created" : "2018-07-07T16:06:08.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Identifying input files for staging"
+  }, {
+    "status" : "FAILED",
+    "created" : "2018-07-07T16:06:12.000-05:00",
+    "createdBy" : "jochoa",
+    "description" : "Unable to stage input agave://data-tacc-work-jochoa/stampede2/sd2e-data/sample/SP1.fq. Failed to authenticate to execution system tacc-stampede2-jochoa"
+  } ]
+}
+Terminating watch

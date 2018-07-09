@@ -5,7 +5,7 @@ This repo includes the app and job configuration files, `app.json` and
 
 The job is run on the private system `tacc-stampede2-<username>` as follows:
 ```shell
-jobs-submit -V -W -F fastqc-0.11.5/job.json  > LOGS_noset 2>&1
+jobs-submit -V -W -F fastqc-0.11.5/job.json  > LOGS.txt 2>&1
 ```
 
 The job culminates wth the following hob history update:

@@ -1,0 +1,8 @@
+{
+  "name": "FastQC-job",
+  "appId": "fastqc-jochoa-maverick-0.11.5",
+  "archive": false,
+  "input": {
+      "fastq": "agave://data-tacc-work-jochoa/stampede2/sd2e-data/sample/SP1.fq"
+  }
+}
